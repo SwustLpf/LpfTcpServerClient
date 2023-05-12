@@ -1,2 +1,6 @@
 /CLpfServer/*.VC.db
 /CLpfServer/*.VC.VC.opendb
+/CLpfServer/*.vs
+/CLpfClient/*.VC.db
+/CLpfClient/*.VC.VC.opendb
+/CLpfClient/*.vs
