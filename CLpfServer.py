@@ -1,7 +1,7 @@
 import socket
 
 HOST = '127.0.0.1'  # 监听的IP地址
-PORT = 8888        # 监听的端口号
+PORT = 12346        # 监听的端口号
 
 # 创建socket对象，并绑定ip和port，开始监听传入的连接请求
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:

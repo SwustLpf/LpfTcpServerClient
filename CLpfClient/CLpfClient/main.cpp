@@ -20,8 +20,12 @@ int main()
 	}
 #endif
 
+	//const char* pstrIP = "192.168.1.101";
+	const char* pstrIP = "127.0.0.1";
+	const uint16_t u16Port = 12346;
+	cout << "start connect " << pstrIP << "port " << u16Port << ":" << endl;
 	CLpfClient objCLpfClient;
-	if (0 != objCLpfClient.initTcp("127.0.0.1", 8888))
+	if (0 != objCLpfClient.initTcp(pstrIP, u16Port))
 	{
 		cout << "initTcp failed\n";
 	}

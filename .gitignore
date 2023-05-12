@@ -1,6 +1,10 @@
 /CLpfServer/*.VC.db
 /CLpfServer/*.VC.VC.opendb
 /CLpfServer/*.vs
+/CLpfServer/Debug
+/CLpfServer/CLpfServer/Debug
 /CLpfClient/*.VC.db
 /CLpfClient/*.VC.VC.opendb
 /CLpfClient/*.vs
+/CLpfClient/Debug
+/CLpfClient/CLpfClient/Debug
